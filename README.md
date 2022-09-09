@@ -10,4 +10,4 @@
 HTML, CSS, Vanilla JS and weather API
 
 ## Live Site:
-https://xamy-weather-app.netlify.app
+https://my-weather-app-vean.netlify.app
