@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: unset;
+}
+
+body {
+  background-color: rgb(17, 32, 32);
+  color: #aaa;
+}
+
+nav {
+  background-color: rgb(11, 20, 20);
+  height: 3.5rem;
+  line-height: 3.5rem;
+}
+
+nav p {
+  font-size: 1.4rem;
+  padding: 0 0 0 2rem;
+}
+
+section {
+  margin: auto;
+  justify-self: center;
+  margin-top: 1vh;
+  height: fit-content;
+  text-align: center;
+  border: 3px solid rgb(170, 170, 170);
+  border-radius: 1rem;
+  width: fit-content;
+}
+
+input {
+  border-radius: 0.4rem;
+  border: 1px solid rgb(170, 170, 170);
+  height: 2.2rem;
+  width: 100%;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  background: transparent;
+  color: #fff;
+}
+
+.search {
+  padding: 0 1rem;
+  margin: auto;
+  width: 100%;
+}
+
+.search p {
+  padding: 1rem 0;
+}
+
+.search button {
+  width: 64%;
+  min-width: 100px;
+  margin: auto;
+  justify-content: center;
+  margin-top: 2.5rem;
+  background-color: rgb(11, 20, 20);
+  padding: 0.6rem 0;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+section p {
+  font-size: 2rem;
+}
+
+#result {
+  font-size: 1.5rem;
+  width: fit-content;
+  margin: auto;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.result p {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  width: fit-content;
+}
+
+img {
+  position: relative;
+  top: 1.3rem;
+}
+
+#local-info,
+#condition-text,
+#current-temp,
+#current-humidity,
+#current-windspeed {
+  margin-bottom: 1rem;
+  white-space: nowrap;
+}
+
+#error-message {
+  margin: auto;
+}
+
+#btn {
+  padding: 0.5rem 2rem;
+  width: 60%;
+  font-size: 1rem;
+  background-color: rgb(11, 20, 20);
+  color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  margin: 1.5rem;
+}
