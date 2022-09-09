@@ -10,4 +10,4 @@
 HTML, CSS, Vanilla JS and weather API
 
 ## Live Site:
-https://my-weather-app-vean.netlify.app
+https://my-weather-app-vean.vercel.app
